@@ -64,9 +64,10 @@ lib/
 
 ## 📸 Screenshots
 
-| Home Page | Character Details |
-|-----------|------------------|
-| <img src="homePage.png" width="200"> | <img src="characterDetails.png" width="200"> |
+| Home Page | Character Details | Offline Page |
+|-----------|------------------|--------------|
+| <img src="homePage.png" width="200"> | <img src="characterDetails.png" width="200"> | <img src="noInternet.png" width="200"> |
+
 
 
 *Technology	Usage
