@@ -21,21 +21,36 @@ Repository: Acts as an abstraction between data sources and business logic.
 Uses Cubit (from flutter_bloc) to manage state and interact with the repository.
 ### 3️⃣ Presentation Layer 🎨
 
-UI (Widgets & Screens) listens to Cubit for state updates.
+## 📂 Project Directory Structure
+
+```plaintext
 lib/
-│── data/             # Data Layer
-│   ├── models/       # Data Models
-│   ├── api_service/  # API calls (Dio)
-│   ├── repository/   # Data Repository
+│── business_logic/        
+│   ├── cubit/            
+│   │   ├── character_cubit.dart
+│   │   ├── character_states.dart
 │
-│── business_logic/   # Business Logic Layer
-│   ├── cubit/        # Cubit State Management
+│── data/                 
+│   ├── apiServices/       
+│   │   ├── api_services.dart
+│   ├── models/           
+│   │   ├── character_model.dart
+│   ├── repository/        
+│   │   ├── characters_repo.dart
 │
-│── presentation/     # UI Layer
-│   ├── screens/      # Screens & Widgets
-│   ├── widgets/      # UI Components
+│── helper/                
+│   ├── app_strings.dart
+│   ├── color_manager.dart
 │
-│── main.dart         # App Entry Point
+│── presentation/          
+│   ├── screens/           
+│   │   ├── homeScreen/
+│   │   ├── character_details_screen.dart
+│   ├── widgets/           
+│
+│── router/                
+│── main.dart              
+```
 
 ## 🚀 Features
 
@@ -51,7 +66,7 @@ lib/
 
 | Home Page | Character Details |
 |-----------|------------------|
-| <img src="homePage.png" width="150"> | <img src="characterDetails.png" width="150"> |
+| <img src="homePage.png" width="200"> | <img src="characterDetails.png" width="200"> |
 
 
 *Technology	Usage
@@ -70,4 +85,4 @@ Home Page	Character Details
 
 
 
-*That’s it! This README.md is now GitHub-ready 🚀. Let me know if you need any modifications! 🎯*
+*That’s it! This README.md is now GitHub-ready 🚀. Let me know if i can make any modifications! 🎯*
