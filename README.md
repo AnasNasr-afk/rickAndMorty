@@ -43,6 +43,7 @@ lib/
 ✅ State Management (Cubit)
 ✅ Flutter Offline (Connect to internet)
 ✅ Animations (Flutter Animation Package)
+✅ SliverList & CustomScrollView for smooth scrolling
 ✅ Search & Filter Characters
 ✅ Dark Mode Support
 
